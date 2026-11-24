@@ -1,38 +1,31 @@
 {
   "targetPortfolio": {
-    "AIQ": 5,
-    "SMH": 5,
-    "XLU": 5,
-    "ITA": 3,
-    "GLD": 10,
-    "IJH": 3,
-    "VOO": 20,
-    "QQQ": 15,
-    "ESGU": 9,
-    "BSV": 20,
-    "XLV": 2,
-    "BTC": 1.5,
-    "ETH": 1.5
+    "SPYM": 50,
+    "QQQM": 50
   },
-  "currentHoldings": {
-    "AAPL": 30,
-    "AMZN": 3,
-    "BIPC": 1,
-    "INTC": 5,
-    "TSM": 10,
-    "VOO": 1
-  },
-  "totalPortfolioValue": 50000,
+  "currentHoldings": {},
+  "totalPortfolioValue": 10000,
   "defaultCurrency": "USD",
-  "watching": ["MSFT", "NVDA", "AMD"],
-  "watchingCrypto": ["BTC/CRO", "ETH/CRO"],
+  "watching": [
+    "AAPL", "GOOG", "MSFT", "NVDA", "PLTR",
+    "ASML", "TSM", "SKHY",
+    "JNJ", "WMT", "JPM", "XOM", "LMT", "OKLO",
+    "ASELS.IS", "THYAO.IS", "TUPRS.IS",
+    "TUR", "EWY", "FXI", "EEM", "GLD", "SLV",
+    "XU100.IS", "XU030.IS", "^GSPC", "^IXIC", "^DJI", "^HSI", "^HSCE", "^KS11",
+    "GC=F", "SI=F", "PL=F", "BZ=F",
+    "TRY=X", "EURTRY=X", "DX-Y.NYB",
+    "^VIX", "^TNX",
+    "BTC-USD", "ETH-USD"
+  ],
+  "watchingCrypto": [],
   "intradayAlerts": {
     "enabled": true,
     "confidenceIncreaseThreshold": 10,
     "minConfidenceToAlert": 80,
     "actionUpgradesAlert": true,
     "onlyAlertForActions": ["STRONG BUY", "BUY"],
-    "minPriceMovePctToAlert": 1.0
+    "minPriceMovePctToAlert": 1.5
   },
   "cryptoAlerts": {
     "enabled": true,
@@ -40,12 +33,12 @@
     "minConfidenceToAlert": 80,
     "actionUpgradesAlert": true,
     "onlyAlertForActions": ["STRONG BUY", "BUY"],
-    "minPriceMovePctToAlert": 1.0
+    "minPriceMovePctToAlert": 3.0
   },
   "social": {
-    "enabled": true,
+    "enabled": false,
     "includeLinkInX": false,
-    "hashtags": ["investing", "stocks", "stockmarket", "ETFs"]
+    "hashtags": []
   },
   "ai": {
     "strongBuyRequiresAllProviders": false,
